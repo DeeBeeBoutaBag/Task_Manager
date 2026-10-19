@@ -1,0 +1,10 @@
+# Application dependencies. These versions were used for verification.
+fastapi==0.143.3
+pydantic==2.14.1
+starlette==0.52.1
+anyio==4.12.1
+uvicorn==0.54.0
+
+# pytest runs the tests; TestClient uses httpx internally.
+pytest==9.1.1
+httpx==0.28.1
